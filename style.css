@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    padding-top: 70px;
+}
+
+#reset {
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-right: 200px;
+    background-color: rgb(136, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(44, 204, 105);
+    border-radius: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    width: 300px;
+    height: 150px;
+}
+
+#reset:active {
+    background-color: rgb(120, 224, 1);
+    border: 5px solid rgb(39, 175, 91);
+}
+
+#container {
+    border: 3px solid black;
+    width: 640px;
+    height: 640px;
+}
+
+.row {
+    background-color: brown;
+    display: flex;
+    
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
