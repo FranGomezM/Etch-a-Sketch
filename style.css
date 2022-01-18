@@ -6,6 +6,12 @@ body {
     padding-top: 70px;
 }
 
+#button-box {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
 #reset {
     align-self: flex-start;
     margin-top: 50px;
@@ -21,6 +27,25 @@ body {
 }
 
 #reset:active {
+    background-color: rgb(120, 224, 1);
+    border: 5px solid rgb(39, 175, 91);
+}
+
+#size {
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-right: 200px;
+    background-color: rgb(136, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(44, 204, 105);
+    border-radius: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    width: 300px;
+    height: 150px;
+}
+
+#size:active {
     background-color: rgb(120, 224, 1);
     border: 5px solid rgb(39, 175, 91);
 }
@@ -41,6 +66,4 @@ body {
     background-color: white;
     border: 1px solid black;
     box-sizing: border-box;
-    width: 40px;
-    height: 40px;
 }
